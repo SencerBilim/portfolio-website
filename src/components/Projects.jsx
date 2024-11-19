@@ -30,7 +30,7 @@ const projectsData = [
     titleKey: "projects.archersRise.title",
     descriptionKey: "projects.archersRise.description",
     technologies: ["Javascript", "CSS", "HTML"],
-    liveLink: "https://sencerbilim.github.io/Archers-Rise-Game/",
+    liveLink: "https://archers-rise.vercel.app/",
     repLink: "https://github.com/SencerBilim/Archers-Rise-Game",
   },
   {
