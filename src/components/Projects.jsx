@@ -38,7 +38,8 @@ const projectsData = [
     titleKey: "projects.portfolio.title",
     descriptionKey: "projects.portfolio.description",
     technologies: ["React", "Tailwind", "HTML"],
-    repLink: "",
+    repLink: "https://github.com/SencerBilim/portfolio-website",
+    liveLink: "https://sencer-bilim.com/",
   },
 ];
 
