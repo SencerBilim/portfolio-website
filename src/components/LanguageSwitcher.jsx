@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { GrLanguage } from 'react-icons/gr';
+import { IoLanguage } from "react-icons/io5";
 import { useTranslation } from 'react-i18next';
 
 const LanguageSwitcher = () => {
@@ -22,7 +22,7 @@ const LanguageSwitcher = () => {
         onClick={toggleDropdown} 
         className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-green-600 hover:opacity-100 hover:scale-125"
       >
-        <GrLanguage />
+        <IoLanguage />
       </li>
 
       {/* Dropdown menu */}
