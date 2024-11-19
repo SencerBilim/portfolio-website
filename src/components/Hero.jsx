@@ -23,7 +23,7 @@ const Hero = () => {
         transition={{duration: 0.8, delay:0.8}}
         >
           <h1 className='bg-gradient-to-r from-gray-400 to-gray-100 bg-clip-text text-transparent text-5xl font-light md:text-7x1'>Sencer Bilim</h1>
-          <h3 className='bg-gradient-to-l from-gray-400 to-gray-100 bg-clip-text text-transparent text-2xl font-light md:text-3x1 '>Web Developer</h3>
+          <h3 className='bg-gradient-to-l from-gray-400 to-gray-100 bg-clip-text text-transparent text-2xl font-light md:text-3x1 '>{t("Web Developer")}</h3>
           <p className='md:text-base text-pretty text-sm text-gray-400'>{t("About")}</p>
         </motion.div>
       </div>
