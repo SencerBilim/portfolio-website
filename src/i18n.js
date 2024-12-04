@@ -31,7 +31,15 @@ const resources = {
         "portfolio": {
           "title": "Personal Portfolio Website",
           "description": "A responsive and interactive portfolio website designed to showcase my skills, projects, and my learning journey in web development."
-        }
+        },
+        "Collers": {
+          "title": "Collers",
+          "description": "Collers is a sneaker collection website developed as a frontend case study. Built with React and Tailwind CSS, following a provided Figma design."
+         },
+         "Rezilla": {
+          "title": "Rezilla",
+          "description": "Rezilla is a real estate website developed as a frontend case study. Built with React and Tailwind CSS, following a provided Figma design."
+         }
       }
     }
   },
@@ -64,7 +72,15 @@ const resources = {
         "portfolio": {
           "title": "Kişisel Portfolyo Web Sitesi",
           "description": "Becerilerimi, projelerimi ve web geliştirme yolculuğumu sergilemek için tasarlanmış duyarlı ve etkileşimli bir portfolyo web sitesidir."
-        }
+        },
+        "Collers": {
+          "title": "Collers",
+          "description": "Collers, ön uç vaka çalışması olarak geliştirilen bir spor ayakkabı koleksiyonu web sitesidir. Sağlanan Figma tasarımı React ve Tailwind CSS ile oluşturulmuştur."
+         },
+         "Rezilla": {
+          "title": "Rezilla",
+          "description": "Rezilla, ön uç vaka çalışması olarak geliştirilen bir emlak web sitesidir. Figma tasarımını takip ederek React ve Tailwind CSS ile oluşturulmuştur."
+         }
       }
     }
   }

@@ -2,6 +2,8 @@ import image1 from "../images/RepDiary.png";
 import image2 from "../images/SkySight.png";
 import image3 from "../images/Archer.png";
 import image4 from "../images/portfolio.png";
+import image5 from "../images/case-study1.png";
+import image6 from "../images/case-study-2.png";
 import { motion } from "framer-motion";
 import { BsGithub } from "react-icons/bs";
 import { GoArrowUpRight } from "react-icons/go";
@@ -9,13 +11,29 @@ import { useTranslation } from 'react-i18next';
 
 const projectsData = [
   {
+    image: image6,
+    titleKey: "projects.Rezilla.title",
+    descriptionKey: "projects.Rezilla.description",
+    technologies: ["React", "Tailwind"],
+    liveLink: "https://sb-case-study-2.vercel.app/",
+    repLink: "https://github.com/SencerBilim/Case-Study-2", 
+  },
+  {
+    image: image5,
+    titleKey: "projects.Collers.title",
+    descriptionKey: "projects.Collers.description",
+    technologies: ["React", "Tailwind"],
+    liveLink: "https://sencer-bilim-case-study.vercel.app/",
+    repLink: "https://github.com/SencerBilim/Case-Study-1", 
+  },
+  {
     image: image1,
     titleKey: "projects.repDiary.title",
     descriptionKey: "projects.repDiary.description",
     technologies: ["React", "Express.js", "Node.js", "MongoDB", "CSS", "HTML"],
     liveLink: "https://repdiary-hfsw.onrender.com/login",
     repLink: "https://github.com/SencerBilim/RepDiary",
-    noteKey: "projects.repDiary.note",  // Note Key for translation
+    noteKey: "projects.repDiary.note", 
   },
   {
     image: image2,
