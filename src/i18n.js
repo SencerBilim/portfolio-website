@@ -12,7 +12,7 @@ const resources = {
       "Let's Get in Touch!": "Let's Get in Touch!",
       "Send Me an Email": "Send Me an Email",
       "I'm always open to new opportunities and collaborations. Feel free to reach out via email!": "I'm always open to new opportunities and collaborations. Feel free to reach out via email!",
-      "About" : "Hi, I’m Sencer, a 24-year-old web developer based in Istanbul, Turkey. I work with both front-end and back-end technologies, including HTML, CSS, JavaScript, Node.js, and Express. I'm passionate about building clean, user-friendly websites and efficient, scalable web applications.",
+      "About" : "Hi, I’m Sencer, a 24-year-old web developer based in Istanbul, Turkey. I work with both front-end and back-end technologies, including HTML, CSS, JavaScript, React, Node.js, and Express. I'm passionate about building clean, user-friendly websites and efficient, scalable web applications.",
       "GitHub Repository": "GitHub Repository",
       "projects": {
         "repDiary": {
@@ -53,7 +53,7 @@ const resources = {
       "Send Me an Email": "Bana E-posta Gönder",
       "Let's Get in Touch!": "Hadi İletişime Geçelim!",
       "I'm always open to new opportunities and collaborations. Feel free to reach out via email!": "Her zaman yeni fırsatlara ve işbirliklerine açığım. E-posta yoluyla bana ulaşmaktan çekinmeyin!",
-      "About": "Merhaba ben Sencer, İstanbul'da yaşayan 24 yaşında bir web geliştiricisiyim. HTML, CSS, JavaScript, Node.js ve Express dahil olmak üzere hem ön uç hem de arka uç teknolojileriyle çalışıyorum. Hızlı, kullanıcı dostu ve verimli web siteleri oluşturma konusunda tutkuluyum.",
+      "About": "Merhaba ben Sencer, İstanbul'da yaşayan 24 yaşında bir web geliştiricisiyim. HTML, CSS, JavaScript, React, Node.js ve Express dahil olmak üzere hem ön uç hem de arka uç teknolojileriyle çalışıyorum. Hızlı, kullanıcı dostu ve verimli web siteleri oluşturma konusunda tutkuluyum.",
       "GitHub Repository": "GitHub Deposu",
       "projects": {
         "repDiary": {
