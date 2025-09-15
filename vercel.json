@@ -1,6 +1,30 @@
 {
+  "redirects": [
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "sencer-bilim.com" }],
+      "destination": "https://www.sencer-bilim.com/",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "sencer-bilim.com" }],
+      "destination": "https://www.sencer-bilim.com/$1",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     { "source": "/privacy", "destination": "/index.html" },
     { "source": "/terms",   "destination": "/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/sitemap.xml",
+      "headers": [{ "key": "Content-Type", "value": "application/xml; charset=utf-8" }]
+    },
+    {
+      "source": "/robots.txt",
+      "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }]
+    }
   ]
 }
