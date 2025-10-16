@@ -14,7 +14,7 @@
     }
   ],
   "rewrites": [
-    { "source": "/app-ads.txt", "destination": "/app-ads.txt" }, 
+    { "source": "/app-ads.txt", "destination": "/app-ads.txt" },
     { "source": "/privacy", "destination": "/index.html" },
     { "source": "/terms",   "destination": "/index.html" }
   ],
