@@ -14,10 +14,15 @@
     }
   ],
   "rewrites": [
+    { "source": "/app-ads.txt", "destination": "/app-ads.txt" }, 
     { "source": "/privacy", "destination": "/index.html" },
     { "source": "/terms",   "destination": "/index.html" }
   ],
   "headers": [
+    {
+      "source": "/app-ads.txt",
+      "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }]
+    },
     {
       "source": "/sitemap.xml",
       "headers": [{ "key": "Content-Type", "value": "application/xml; charset=utf-8" }]
